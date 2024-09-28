@@ -1,0 +1,43 @@
+// check
+{
+    "username":"john doe",
+    "password":"password123" 
+}
+
+//insert
+
+{
+    "user_id":"1",
+    "start_date":"2023-011-25",
+    "end_date":"2023-11-30",
+    "location_name":"Osaka",
+    "latitude":"100.5",
+    "longitude":"200.5",
+    "cost":"3000.00"
+}
+
+ //update
+ {
+    "trip_id":"5",
+    "user_id":"5",
+    "trip_id":"5",
+    "start_date":"5",
+    "end_date":"5",
+    "location_name":"5",
+    "latitude":"5",
+    "longitude":"5",
+    "cost":"5"
+ }
+
+//  delete
+ {
+    "itemId":"11",
+ }
+
+
+//getalltripbyuseridDate
+{
+    "user_id":"1",
+    "start_date":"2023-09-25",
+    "end_date":"2023-11-01"
+}
