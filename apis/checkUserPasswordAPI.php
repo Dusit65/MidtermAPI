@@ -29,7 +29,7 @@ if ($result->rowCount() > 0) {
     //สร้างตัวแปรอาร์เรย์เก็บข้อมูล
     $resultArray = array(
         "message" => "1",
-        "user_id" => $user_id,
+        "user_id" => strval($user_id),
         "username" => $username,
         "email" => $email
         
